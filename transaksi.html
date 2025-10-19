@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transaksi & Token - SAINTARA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "saintara-blue": "#2E3A87",
+              "saintara-dark-blue": "#1C245D",
+              "saintara-light-blue": "#F0F2FF",
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #f0f2ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex min-h-screen bg-saintara-light-blue">
+            <aside class="w-64 flex-shrink-0 flex flex-col bg-saintara-blue text-white">
+        <div class="h-20 flex items-center justify-center border-b border-saintara-dark-blue/50">
+          <h1 class="text-2xl font-bold tracking-wider text-white">SAINTARA</h1>
+        </div>
+
+        <nav class="flex-1 px-4 py-6 space-y-2">
+          <a href="index.html" class="flex items-center px-4 py-2.5 bg-saintara-dark-blue rounded-lg font-semibold">
+            <svg class="w-6 h-6 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h7.5"
+              />
+            </svg>
+            Beranda
+          </a>
+          <a href="profil.html" class="flex items-center px-4 py-2.5 text-gray-300 hover:bg-saintara-dark-blue/50 rounded-lg">
+            <svg class="w-6 h-6 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+            </svg>
+            Profil
+          </a>
+          <a href="daftarTes.html" class="flex items-center px-4 py-2.5 text-gray-300 hover:bg-saintara-dark-blue/50 rounded-lg">
+            <svg class="w-6 h-6 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"
+              />
+            </svg>
+            Daftar Tes Karakter
+          </a>
+          <a href="transaksi.html" class="flex items-center px-4 py-2.5 text-gray-300 hover:bg-saintara-dark-blue/50 rounded-lg">
+            <svg class="w-6 h-6 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15A2.25 2.25 0 002.25 6.75v10.5A2.25 2.25 0 004.5 19.5z" />
+            </svg>
+            Transaksi & Token
+          </a>
+          <a href="hasil.html" class="flex items-center px-4 py-2.5 text-gray-300 hover:bg-saintara-dark-blue/50 rounded-lg">
+            <svg class="w-6 h-6 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
+            </svg>
+            Hasil Tes
+          </a>
+          <a href="artikel.html" class="flex items-center px-4 py-2.5 text-gray-300 hover:bg-saintara-dark-blue/50 rounded-lg">
+            <svg class="w-6 h-6 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z"
+              />
+            </svg>
+            Artikel Update
+          </a>
+          <a href="bantuan.html" class="flex items-center px-4 py-2.5 text-gray-300 hover:bg-saintara-dark-blue/50 rounded-lg">
+            <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            Bantuan
+          </a>
+          <a href="pengaturan.html" class="flex items-center px-4 py-2.5 text-gray-300 hover:bg-saintara-dark-blue/50 rounded-lg">
+            <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+              ></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
+            Pengaturan
+          </a>
+        </nav>
+      </aside>
+
+      <div class="flex-1 flex flex-col overflow-hidden">
+        <header class="h-20 flex items-center justify-between px-8 bg-white shadow-sm">
+          <h2 class="text-2xl font-bold text-gray-800">Transaksi & Token</h2>
+          <div class="flex items-center space-x-4">
+            <button type="button" class="p-2 text-gray-500 rounded-full hover:bg-gray-100 hover:text-gray-700">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path>
+              </svg>
+            </button>
+            <img class="w-10 h-10 rounded-full" src="https://ui-avatars.com/api/?name=Budi+Susanto&background=2E3A87&color=fff" alt="Budi Susanto" />
+          </div>
+        </header>
+
+        <main class="flex-1 overflow-x-hidden overflow-y-auto p-8">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="lg:col-span-2 space-y-6">
+              <div class="p-6 bg-white rounded-lg shadow-md">
+                <h3 class="text-lg font-semibold text-gray-800 mb-2">Status Token Anda</h3>
+                <div class="p-4 bg-green-50 border border-green-200 rounded-lg flex items-center justify-between">
+                  <div>
+                    <p class="text-sm text-green-700">Token Aktif Tersedia:</p>
+                    <p class="text-3xl font-bold text-green-800">5 Token</p>
+                  </div>
+                  <span class="text-sm font-semibold text-green-700 bg-green-200 px-3 py-1 rounded-full">Aktif</span>
+                </div>
+              </div>
+
+              <div class="p-6 bg-white rounded-lg shadow-md">
+                <h3 class="text-lg font-semibold text-gray-800 mb-4">Beli Token Tes</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div class="flex flex-col p-5 border border-gray-200 rounded-lg">
+                    <h4 class="text-xl font-bold text-saintara-blue">Paket 1 Token</h4>
+                    <p class="text-sm text-gray-500 mb-3">Untuk 1x Tes Sintara Premium</p>
+                    <p class="text-2xl font-bold text-gray-800 mb-4">Rp 50.000</p>
+                    <button data-modal-target="payment-modal" data-modal-toggle="payment-modal" class="w-full mt-auto text-white bg-saintara-blue hover:bg-saintara-dark-blue font-medium rounded-lg text-sm px-5 py-2.5">Beli Paket</button>
+                  </div>
+                  <div class="flex flex-col p-5 border-2 border-saintara-blue rounded-lg relative">
+                    <span class="absolute -top-3 left-4 bg-saintara-blue text-white text-xs font-bold px-3 py-1 rounded-full">Paling Hemat</span>
+                    <h4 class="text-xl font-bold text-saintara-blue">Paket 5 Token</h4>
+                    <p class="text-sm text-gray-500 mb-3">Untuk 5x Tes Sintara Premium</p>
+                    <p class="text-2xl font-bold text-gray-800 mb-4">Rp 200.000</p>
+                    <button data-modal-target="payment-modal" data-modal-toggle="payment-modal" class="w-full mt-auto text-white bg-saintara-blue hover:bg-saintara-dark-blue font-medium rounded-lg text-sm px-5 py-2.5">Beli Paket</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-1 p-6 bg-white rounded-lg shadow-md">
+              <h3 class="text-lg font-semibold text-gray-800 mb-4">Riwayat Transaksi</h3>
+              <div class="flow-root">
+                <ul role="list" class="divide-y divide-gray-200">
+                  <li class="py-3 sm:py-4">
+                    <div class="flex items-center space-x-4">
+                      <div class="flex-shrink-0">
+                        <svg class="w-6 h-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                      </div>
+                      <div class="flex-1 min-w-0">
+                        <p class="text-sm font-medium text-gray-900 truncate">Beli Paket 5 Token</p>
+                        <p class="text-sm text-gray-500 truncate">1 Okt 2025</p>
+                      </div>
+                      <div class="inline-flex flex-col items-end text-sm">
+                        <span class="font-semibold text-gray-800">Rp 200.000</span>
+                        <span class="text-green-600">Selesai</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-3 sm:py-4">
+                    <div class="flex items-center space-x-4">
+                      <div class="flex-shrink-0">
+                        <svg class="w-6 h-6 text-yellow-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                      </div>
+                      <div class="flex-1 min-w-0">
+                        <p class="text-sm font-medium text-gray-900 truncate">Beli Paket 1 Token</p>
+                        <p class="text-sm text-gray-500 truncate">18 Okt 2025</p>
+                      </div>
+                      <div class="inline-flex flex-col items-end text-sm">
+                        <span class="font-semibold text-gray-800">Rp 50.000</span>
+                        <span class="text-yellow-600">Pending</span>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <div id="payment-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+      <div class="relative p-4 w-full max-w-md max-h-full">
+        <div class="relative bg-white rounded-lg shadow">
+          <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
+            <h3 class="text-lg font-semibold text-gray-900">Pilih Metode Pembayaran</h3>
+            <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center" data-modal-hide="payment-modal">
+              <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+              </svg>
+              <span class="sr-only">Tutup modal</span>
+            </button>
+          </div>
+          <div class="p-4 md:p-5">
+            <div class="mb-4 p-3 bg-gray-50 rounded-lg">
+              <p class="text-sm text-gray-600">Anda membayar untuk:</p>
+              <p class="text-base font-semibold text-saintara-blue">Paket 1 Token - Rp 50.000</p>
+            </div>
+
+            <p class="text-sm font-medium text-gray-800 mb-2">Opsi Pembayaran:</p>
+
+            <div id="accordion-payment-methods" data-accordion="collapse">
+              <h2 id="accordion-heading-1">
+                <button type="button" class="flex items-center justify-between w-full p-4 font-medium rtl:text-right text-gray-600 border border-b-0 border-gray-200 rounded-t-lg hover:bg-gray-100" data-accordion-target="#accordion-body-1" aria-expanded="true" aria-controls="accordion-body-1">
+                  <span>E-Wallet</span>
+                  <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" /></svg>
+                </button>
+              </h2>
+              <div id="accordion-body-1" class="hidden" aria-labelledby="accordion-heading-1">
+                <div class="p-4 border border-b-0 border-gray-200 space-y-2">
+                  <div class="p-3 border rounded-lg cursor-pointer hover:bg-gray-50">GoPay</div>
+                  <div class="p-3 border rounded-lg cursor-pointer hover:bg-gray-50">OVO</div>
+                  <div class="p-3 border rounded-lg cursor-pointer hover:bg-gray-50">Dana</div>
+                </div>
+              </div>
+
+              <h2 id="accordion-heading-2">
+                <button type="button" class="flex items-center justify-between w-full p-4 font-medium rtl:text-right text-gray-600 border border-b-0 border-gray-200 hover:bg-gray-100" data-accordion-target="#accordion-body-2" aria-expanded="false" aria-controls="accordion-body-2">
+                  <span>Bank (Virtual Account)</span>
+                  <svg data-accordion-icon class="w-3 h-3 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" /></svg>
+                </button>
+              </h2>
+              <div id="accordion-body-2" class="hidden" aria-labelledby="accordion-heading-2">
+                <div class="p-4 border border-b-0 border-gray-200 space-y-2">
+                  <div class="p-3 border rounded-lg cursor-pointer hover:bg-gray-50">BCA Virtual Account</div>
+                  <div class="p-3 border rounded-lg cursor-pointer hover:bg-gray-50">Mandiri Virtual Account</div>
+                </div>
+              </div>
+
+              <h2 id="accordion-heading-3">
+                <button type="button" class="flex items-center justify-between w-full p-4 font-medium rtl:text-right text-gray-600 border border-gray-200 rounded-b-lg hover:bg-gray-100" data-accordion-target="#accordion-body-3" aria-expanded="false" aria-controls="accordion-body-3">
+                  <span>Kartu Kredit / Debit</span>
+                  <svg data-accordion-icon class="w-3 h-3 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" /></svg>
+                </button>
+              </h2>
+              <div id="accordion-body-3" class="hidden" aria-labelledby="accordion-heading-3">
+                <div class="p-4 border border-t-0 border-gray-200">
+                  <p class="text-sm text-gray-500">Bayar dengan Visa, Mastercard, dll.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b">
+            <button type="button" class="text-white bg-saintara-blue hover:bg-saintara-dark-blue font-medium rounded-lg text-sm px-5 py-2.5 w-full">Bayar Sekarang</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  </body>
+</html>
+  
